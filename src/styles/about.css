@@ -1,0 +1,82 @@
+.langsCon {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.langsCon div {
+  background: linear-gradient(rgb(0, 85, 3), rgb(0, 255, 85));
+  height: 4vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.langsCon .html {
+  width: 0%;
+  animation: htmlAnimate 1s linear forwards;
+}
+
+@keyframes htmlAnimate {
+  100% {
+    width: 99.9%;
+  }
+}
+
+.langsCon .css {
+  width: 0%;
+  animation: cssAnimate 1s linear forwards;
+}
+
+@keyframes cssAnimate {
+  100% {
+    width: 95%;
+  }
+}
+
+.langsCon .py {
+  width: 0%;
+  animation: pyAnimate 1s linear forwards;
+}
+
+@keyframes pyAnimate {
+  100% {
+    width: 93%;
+  }
+}
+
+.langsCon .js {
+  width: 0%;
+  animation: jsAnimate 1s linear forwards;
+}
+
+@keyframes jsAnimate {
+  100% {
+    width: 85%;
+  }
+}
+
+.langsCon .rjs {
+  width: 0%;
+  animation: rjsAnimate 1s linear forwards;
+}
+
+@keyframes rjsAnimate {
+  100% {
+    width: 64%;
+  }
+}
+
+.langsCon .git {
+  width: 0%;
+  animation: gitAnimate 1s linear forwards;
+}
+
+@keyframes gitAnimate {
+  100% {
+    width: 15%;
+  }
+}

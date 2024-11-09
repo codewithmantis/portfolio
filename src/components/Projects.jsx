@@ -37,6 +37,28 @@ const Projects = () => {
       git: "https://github.com/codewithmantis/joystickPyArd",
       yt: "https://www.youtube.com/shorts/ccLDnkOE5E0",
     },
+
+    4: {
+      name: "Thermistor checker",
+      description: "A health checker using arduino and python",
+      img: "https://th.bing.com/th/id/R.2bf5263c9ceeb7ff3b0cc15b6f80301d?rik=rZwLXP08NM8Tnw&riu=http%3a%2f%2fdrlisawatson.com%2fwp-content%2fuploads%2f2015%2f03%2fBBT-1024x706.png&ehk=nw51J6Hgy3MZZFv2FqilAtf9jKurbSv7EiY6rcrTwUM%3d&risl=&pid=ImgRaw&r=0",
+      git: "https://github.com/codewithmantis/thermistorWithPy",
+      yt: "https://youtube.com/shorts/VN5vrujXL0o?si=q9xgq6Lw1yL7Ke3T",
+    },
+    5: {
+      name: "scraper AI",
+      description: "A python scraper ai that scrapes info from google",
+      img: "https://media.licdn.com/dms/image/D4D12AQFLgVWOMFNpDQ/article-cover_image-shrink_720_1280/0/1699454142398?e=2147483647&v=beta&t=XJFmNXwDZsmmso5wLOazsulWyQlBYXGuEmQfBaWngfE",
+      git: "https://github.com/codewithmantis/scrapeAI",
+      yt: "https://www.youtube.com/watch?v=fGwlv0u9PxA&t=42s",
+    },
+    6: {
+      name: "E-commerce website",
+      description: "A shopping site",
+      img: "https://uicookies.com/wp-content/uploads/2018/06/electro-shop-website-template.jpg?is-pending-load=1",
+      git: "https://github.com/codewithmantis/shopweb",
+      yt: "https://youtube.com/@codewithmantis",
+    },
   };
 
   return (

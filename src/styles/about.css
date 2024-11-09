@@ -1,14 +1,32 @@
-.langsCon {
+.mylearning {
+  display: flex;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  background-color: rgb(10, 39, 2);
+}
+
+.langsCon * {
+  background-color: transparent;
+}
+
+.langsCon {
+  width: 90%;
   background-color: transparent;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(72, 107, 76);
 }
 
 .langsCon div {
   background: linear-gradient(rgb(0, 85, 3), rgb(0, 255, 85));
   height: 4vh;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -18,6 +36,21 @@
 .langsCon .html {
   width: 0%;
   animation: htmlAnimate 1s linear forwards;
+}
+
+.aboutme {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: rgb(10, 39, 2);
+}
+
+.aboutme p {
+  color: white;
+  width: 80%;
 }
 
 @keyframes htmlAnimate {
